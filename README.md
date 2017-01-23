@@ -5,7 +5,7 @@
 - Some changes to karma config, so assets can be accessed
 
 ##Some comments
-- Every line of code is by myself
+- Every line of code is written by myself
 - I spent quite some hours on this over the weekend, but obviously I don’t consider this ‘production ready’, or even ‘ready for testing’, but rather, good enough for a 'proof of concept'. (sry, also have a son to take care of.. :-p)
 - I made it all in vanilla JS/ES6 as requested
 - Spent little time on UI/UX, could have added some media queries for “responsive design”, but this seems enough for a POC.
