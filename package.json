@@ -1,13 +1,15 @@
 {
   "name": "frontend-developer-test",
-  "description": "Gumtree UK frontend developer test project",
+  "description": "Rock paper scissors",
+  "author": "Arman Abbasi",
+  "license": "GPL-3.0",
   "version": "2.0.0",
   "engines": {
     "node": ">=5.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:gumtreeuk/rockpaperscissors.git"
+    "url": "git@github.com:ArmanAbbasi/rockpaperscissors.git"
   },
   "scripts": {
     "test": "karma start karma.config.js --no-single-run",
@@ -44,6 +46,5 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
-  },
-  "license": "UNLICENSED"
+  }
 }
