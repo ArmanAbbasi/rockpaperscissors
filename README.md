@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##Issues/Changes to existing code
 - The package didn't run by default, it had errors because of a dependency on "xcode command line tools". I had to install it.
 - With the latest node LTS, the existing node-sass would not work, updating to latest node-sass worked.
@@ -25,3 +26,6 @@
 
 ##Starting the app
 - The same was as the original one: npm install -> npm run dev, or npm run build -> npm run serve
+=======
+# rockpaperscissors
+>>>>>>> fd38fa88585f6c94a26299e4f21226b531ee152c
