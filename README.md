@@ -24,4 +24,8 @@
 - Didn't spend time on performance (e.g. making images efficient, mp3 audio, lazy loading, etc)
 
 ##Starting the app
-- The same was as the original one: npm install -> npm run dev, or npm run build -> npm run serve
+- Install the dependencies: npm install
+- Build the bundle: npm run build
+- Dev mode: npm run dev
+- Production mode: npm run serve
+- Run tests: npm run test
