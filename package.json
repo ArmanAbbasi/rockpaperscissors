@@ -1,16 +1,18 @@
 {
-  "name": "frontend-developer-test",
-  "description": "Rock paper scissors",
+  "name": "rockpaperscissors",
+  "description": "A simple Rock paper scissors game",
   "author": "Arman Abbasi",
   "license": "GPL-3.0",
-  "version": "2.0.0",
+
   "engines": {
-    "node": ">=5.0.0"
+    "node": ">=6.0.0"
   },
+
   "repository": {
     "type": "git",
     "url": "git@github.com:ArmanAbbasi/rockpaperscissors.git"
   },
+
   "scripts": {
     "test": "karma start karma.config.js --no-single-run",
     "dev": "webpack-dev-server --content-base build/",
@@ -18,6 +20,7 @@
     "serve": "http-server -p 8000 build/",
     "lint": "eslint . --ext .js"
   },
+
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-loader": "^6.2.4",
@@ -42,7 +45,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
     "mocha": "^2.5.3",
-    "node-sass": "^4.3.0",
+    "node-sass": "https://registry.npmjs.org/node-sass/-/node-sass-3.7.0.tgz",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
