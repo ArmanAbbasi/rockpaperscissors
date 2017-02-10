@@ -3,16 +3,13 @@
   "description": "A simple Rock paper scissors game",
   "author": "Arman Abbasi",
   "license": "GPL-3.0",
-
   "engines": {
     "node": ">=6.0.0"
   },
-
   "repository": {
     "type": "git",
     "url": "git@github.com:ArmanAbbasi/rockpaperscissors.git"
   },
-
   "scripts": {
     "test": "karma start karma.config.js --no-single-run",
     "dev": "webpack-dev-server --content-base build/",
@@ -20,9 +17,9 @@
     "serve": "http-server -p 8000 build/",
     "lint": "eslint . --ext .js"
   },
-
   "devDependencies": {
     "babel": "^6.5.2",
+    "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-3": "^6.22.0",
