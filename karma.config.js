@@ -1,5 +1,5 @@
 const WebpackKarmaWarningsPlugin = require('./webpack-karma-warnings-plugin');
-const webpackConfig = require('./webpack.config');
+const webpackConfig = require('./webpack.config.babel.js');
 
 module.exports = (config) => {
     webpackConfig.devtool = 'inline-source-map';
