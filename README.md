@@ -5,7 +5,7 @@
 - Some changes to karma config, so assets can be accessed
 
 ##Some comments
-- Every line of code is by myself
+- Every line of code is written by myself
 - I spent quite some hours on this over the weekend, but obviously I don’t consider this ‘production ready’, or even ‘ready for testing’, but rather, good enough for a 'proof of concept'. (sry, also have a son to take care of.. :-p)
 - I made it all in vanilla JS/ES6 as requested
 - Spent little time on UI/UX, could have added some media queries for “responsive design”, but this seems enough for a POC.
@@ -24,4 +24,8 @@
 - Didn't spend time on performance (e.g. making images efficient, mp3 audio, lazy loading, etc)
 
 ##Starting the app
-- The same was as the original one: npm install -> npm run dev, or npm run build -> npm run serve
+- Install the dependencies: npm install
+- Build the bundle: npm run build
+- Dev mode: npm run dev
+- Production mode: npm run serve
+- Run tests: npm run test
