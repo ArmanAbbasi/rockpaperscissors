@@ -1,41 +1,41 @@
 @mixin keyframes($name) {
-	@-webkit-keyframes #{$name} { @content; }
-	@-moz-keyframes #{$name} { @content; }
-	@-ms-keyframes #{$name} { @content; }
-	@keyframes #{$name} { @content; }
+    @-webkit-keyframes #{$name} { @content; }
+    @-moz-keyframes #{$name} { @content; }
+    @-ms-keyframes #{$name} { @content; }
+    @keyframes #{$name} { @content; }
 }
 
 @mixin vendor-prefix($name, $argument...) {
-	-webkit-#{$name}: #{$argument};
-	-ms-#{$name}: #{$argument};
-	-moz-#{$name}: #{$argument};
-	-o-#{$name}: #{$argument};
-	#{$name}: #{$argument};
+    -webkit-#{$name}: #{$argument};
+    -ms-#{$name}: #{$argument};
+    -moz-#{$name}: #{$argument};
+    -o-#{$name}: #{$argument};
+    #{$name}: #{$argument};
 }
 
 @mixin transform($transforms) {
-	-moz-transform: $transforms;
-	-o-transform: $transforms;
-	-ms-transform: $transforms;
-	-webkit-transform: $transforms;
-	transform: $transforms;
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
 }
 
 @mixin bg-icon ($url, $bgColour, $size: cover) {
-	background: $bgColour url($url) no-repeat center;
-	background-size: $size;
+    background: $bgColour url($url) no-repeat center;
+    background-size: $size;
 }
 
 @mixin fullScreen() {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 @mixin default-font-smoothing() {
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale;
-	font-smoothing: antialiased;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    font-smoothing: antialiased;
 }

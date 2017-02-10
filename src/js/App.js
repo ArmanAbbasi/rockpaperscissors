@@ -22,7 +22,7 @@ class Main {
             this._musicControls.play();
         }
 
-        window.addEventListener('DOMContentLoaded', this.bindEvents.bind(this))
+        window.addEventListener('DOMContentLoaded', this.bindEvents.bind(this));
     }
 
     /**

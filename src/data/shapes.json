@@ -1,13 +1,13 @@
 [{
-	"name": "rock",
-	"beats": "scissors",
-	"imagePath": "/images/rock.png"
+    "name": "rock",
+    "beats": "scissors",
+    "imagePath": "/images/rock.png"
 }, {
-	"name": "paper",
-	"beats": "rock",
-	"imagePath": "/images/paper.png"
+    "name": "paper",
+    "beats": "rock",
+    "imagePath": "/images/paper.png"
 }, {
-	"name": "scissors",
-	"beats": "paper",
-	"imagePath": "/images/scissors.png"
+    "name": "scissors",
+    "beats": "paper",
+    "imagePath": "/images/scissors.png"
 }]
